@@ -2,7 +2,7 @@
 @section("content")
 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Tambah Siswa</h1>
+                        <h1 class="mt-4">Data Admin</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
                             <li class="breadcrumb-item active">Tables</li>
@@ -12,7 +12,7 @@
                               <label for="exampleFormControlFile1">file</label>
                               <input type="file" class="form-control-file" id="exampleFormControlFile1">
                             </div>
-                            <a class="btn btn-primary" href="data-siswa.html" role="button">Kirim</a>
+                            <a class="btn btn-primary" href="data-admin.html" role="button">Kirim</a>
                           </form>
                         
                         
