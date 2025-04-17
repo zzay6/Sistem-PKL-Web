@@ -1,10 +1,10 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('', [AuthController::class, 'index']);
+Route::post('login', [AuthController::class, 'login']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -23,7 +23,7 @@ Route::get('/data-siswa', function () {
 });
 
 Route::get('/tambah-siswa', function () {
-    return view('perusahaan');
+    return view('tambah-siswa');
 });
 
 Route::get('/admin', function () {
