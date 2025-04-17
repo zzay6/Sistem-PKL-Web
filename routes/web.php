@@ -14,8 +14,8 @@ Route::get('/perusahaan', function () {
     return view('perusahaan');
 });
 
-Route::get('/buat-perusahaan', function () {
-    return view('buat-perusahaan');
+Route::get('/tambah-perusahaan', function () {
+    return view('tambah-perusahaan');
 });
 
 Route::get('/data-siswa', function () {
@@ -38,8 +38,8 @@ Route::get('/lowongan', function () {
     return view('lowongan');
 });
 
-Route::get('/buat-lowongan', function () {
-    return view('buat-lowongan');
+Route::get('/tambah-lowongan', function () {
+    return view('tambah-lowongan');
 });
 
 Route::get('/lamaran', function () {
