@@ -16,7 +16,7 @@
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" href="index.html">PKL Bg ILYAS</a>
+        <a class="navbar-brand ps-3" href="/dashboard">PKL Bg ILYAS</a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
         <!-- Navbar Search-->
@@ -46,28 +46,28 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="/dashboard">
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Dashboard
                         </a>
-                        <a class="nav-link collapsed" href="perusahaan.html">
+                        <a class="nav-link collapsed" href="/perusahaan">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                             Perusahaan
                         </a>
-                        <a class="nav-link collapsed" href="data-siswa.html">
+                        <a class="nav-link collapsed" href="/data-siswa">
                             <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                             Data Siswa
                         </a>
 
-                        <a class="nav-link" href="admin.html">
+                        <a class="nav-link" href="/admin">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Admin
                         </a>
-                        <a class="nav-link" href="lowongan.html">
+                        <a class="nav-link" href="/lowongan">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Lowongan PKL
                         </a>
-                        <a class="nav-link" href="lamaran.html">
+                        <a class="nav-link" href="/lamaran">
                             <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                             Lamaran PKL
                         </a>
