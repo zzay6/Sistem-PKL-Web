@@ -45,3 +45,6 @@ Route::get('/tambah-lowongan', function () {
 Route::get('/lamaran', function () {
     return view('lamaran');
 });
+Route::get('/buat-admin', function () {
+    return view('buat-admin');
+});

@@ -2,23 +2,16 @@
 @section("content")
 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Data siswa</h1>
+                        <h1 class="mt-4">Lowongan</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Tables</li>
+                            <li class="breadcrumb-item active">Lowongan</li>
                         </ol>
-                        
                         <div class="lamaran1 mb-4">
-                            <a class="btn btn-primary" href="/tambah-siswa" role="button">Tambah siswa</a>
-                            
+                            <a class="btn btn-primary" href="/tambah-perusahaan" role="button">Buat Lowongan</a>
                         </div>
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the
-                                <a target="_blank" href="https://datatables.net/">official DataTables documentation</a>
-                                .
-                            </div>
-                        </div>
+                       
+                        <div class="card mb-4"><div class="card-body">When scrolling, the navigation stays at the top of the page. This is the end of the static navigation demo.</div></div>
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
@@ -28,25 +21,28 @@
                                 <table id="datatablesSimple">
                                     <thead>
                                         <tr>
-                                            <th>Nama Siswa</th>
-                                            <th>Kelas</th>
-                                            <th>Tahun Ajaran</th>
+                                            <th>Nama Perusahaan</th>
+                                            <th>Judul Lowongan</th>
+                                            <th>Deskripsi</th>
+                                            <th>Status</th>
+                                           
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Position</th>
-                                            <th>Office</th>
-                                            
+                                        <th>Nama Perusahaan</th>
+                                            <th>Judul Lowongan</th>
+                                            <th>Deskripsi</th>
+                                            <th>Status</th>
+                                
                                         </tr>
                                     </tfoot>
                                     <tbody>
                                         <tr>
                                             <td>Tiger Nixon</td>
                                             <td>System Architect</td>
-                                            <td>Edinburgh</td>
-                                            
+                                            <td>15</td>
+                                            <td>Pelajar</td>
                                         </tr>
                                         
                                     </tbody>
@@ -54,5 +50,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </main>
+                
 @endsection
