@@ -48,21 +48,6 @@ return new class extends Migration
             $table->string('nis')->unique();
             $table->timestamps();
         });
-
-        Schema::create('job_offers', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('company_id')->constrained()->onDelete('cascade');
-            $table->string('name');
-            $table->text('description')->nullable();
-            $table->timestamps();
-        });
-
-        Schema::create('job_applies', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('job_offer_id')->constrained()->onDelete('cascade');
-            $table->foreignId('student_id')->constrained()->onDelete('cascade');
-            $table->timestamps();
-        });
     }
 
     /**
